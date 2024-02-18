@@ -2,7 +2,6 @@ import './App.css'
 
 import MainContent from "./Components/MainContent";
 import Sidebar from "./Components/Sidebar";
-
 import "./styles/Components/app.sass";
 
 function App() {

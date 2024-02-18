@@ -4,7 +4,7 @@ import {
   DiCss3,
   DiJsBadge,
   DiNodejsSmall,
-  DiMysql,
+  DiSass,
   DiReact,
 } from "react-icons/di";
 
@@ -15,7 +15,7 @@ const technologies = [
   { id: "css", name: "CSS3", description:"CSS3: poderoso e estiloso, dá vida ao HTML. Transições suaves, animações elegantes - é a camada de estilo para a experiência visual.", icon: <DiCss3 /> },
   { id: "js", name: "JavaScript", description:"JavaScript: a linguagem dinâmica, impulsiona interatividade. Client-side ou server-side, manipula DOM, trazendo páginas à vida com lógica.", icon: <DiJsBadge /> },
   { id: "node", name: "Node.js",description:"Node.js: revolucionando servidores, é JavaScript no backend. Rápido e escalável, suporta aplicações em tempo real. O futuro da programação.", icon: <DiNodejsSmall /> },
-  { id: "mysql", name: "MySQL",description:"Sass: o pré-processador CSS, simplifica estilos. Variáveis, mixins, aninhamento - torna o código mais limpo, eficiente, fácil de manter.", icon: <DiMysql /> },
+  { id: "sass", name: "Sass",description:"Sass: o pré-processador CSS, simplifica estilos. Variáveis, mixins, aninhamento - torna o código mais limpo, eficiente, fácil de manter.", icon: <DiSass /> },
   { id: "react", name: "React",description:"React: a biblioteca declarativa, constrói UIs dinâmicas. Componentes reutilizáveis, virtual DOM - uma revolução na criação de interfaces modernas.", icon: <DiReact /> },
 ];
 

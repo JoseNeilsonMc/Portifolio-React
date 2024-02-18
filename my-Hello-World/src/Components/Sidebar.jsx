@@ -9,10 +9,10 @@ import "../styles/Components/sidebar.sass";
     <div>
         <aside id="sidebar">
       <img src={Avatar} alt="Neilson Santos" />
-      <p className="title">Desenvolvedor</p>
+      <p className="title">Desenvolvedor Web</p>
       <SocialNetworkContainer />
       <InformationContainer />
-      <a href="#" className="btn">
+      <a href="#" className="btn" target="_blank">
         Download currículo
       </a>
     </aside>

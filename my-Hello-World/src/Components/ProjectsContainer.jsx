@@ -1,6 +1,5 @@
 const ProjectsConatiner = () => {
   return (
-    <div>
          <section className="projects-container">
       <h2>Projetos</h2>
       <p>
@@ -49,8 +48,6 @@ const ProjectsConatiner = () => {
         Ver Projetos
       </a>
     </section>
-
-    </div>
   )
 }
 export default ProjectsConatiner;
