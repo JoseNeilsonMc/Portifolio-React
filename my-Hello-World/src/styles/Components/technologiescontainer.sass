@@ -2,14 +2,13 @@
 @use '../mixins'
     
 .technologies-container
-    margin-bottom: 1rem
-
-    .technologies-grid
+        margin-bottom: 1rem
+.technologies-grid
         display: flex
         flex-wrap: wrap
         gap: 1.5rem
-
-    .technology-card
+     
+.technology-card
         @include mixins.center
         gap: 1rem
         padding: 1rem
@@ -23,28 +22,35 @@
 
         svg
             font-size: 6rem
-            width: 400px
-    #html
+            width: 400px 
+                   
+#html
         svg
             color: #E44D26
             
 
-    #css
+#css
         svg
             color: #1572B6
 
-    #js
+#js
         svg
             color: #F0DB4F
 
-    #node
+#node
         svg
             color: #83CD29
 
-    #sass
+#sass
         svg
             color: #ad05a5
 
-    #react
+#react
         svg
             color: #45d1f7
+
+@media screen and (min-width: 374px) and (max-width: 775px)
+    .technologies-grid
+        flex-direction: column  
+    .technology-card
+        width: 100%       
