@@ -7,10 +7,10 @@ import "../styles/Components/maincontent.sass";
  const MainContent = () => {
   return (
          <main id="main-content">
-      <AboutContainer />
-      <TechnologiesContainer />
-      <ProjectsContainer />
-    </main>
+         <AboutContainer />
+         <TechnologiesContainer />
+         <ProjectsContainer />
+         </main>
 
 
   )

@@ -7,6 +7,10 @@
     border-radius: variables.$container-border-radius
     padding: 3rem
 
+@media screen and (min-width: 376px) and (max-width: 775px) 
+#main-content
+    width: 100% 
+    padding: 1rem      
     section
         display: flex
         flex-direction: column
@@ -20,8 +24,6 @@
         gap: 1rem
         &:after
             @include mixins.gradient-border
-            
-
     p
         color: variables.$text-color-secondary
         margin-bottom: 1rem
@@ -31,4 +33,7 @@
         width:150px
         align-self: start
         @include mixins.btn
+
+        @media screen and (min-width: 376px) and (max-width: 775px) 
+        flex-direction: column       
         
